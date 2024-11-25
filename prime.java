@@ -1,6 +1,6 @@
 public class Prime {
     public static void main(String[] args) {
-        int num = 29; // Test number
+        int num = Integer.parseInt(args[0]); // Take number from command-line
         boolean isPrime = true;
 
         for (int i = 2; i <= num / 2; i++) {
